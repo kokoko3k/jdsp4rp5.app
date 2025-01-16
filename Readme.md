@@ -1,4 +1,4 @@
-# Jdsp4Rp5 (temp root) app
+# ((•)) Jdsp4Rp5 (temp root) app 
 ### *JamesDSP in temporary root mode for Retroid Pocket 5*
 
 <br>
@@ -15,7 +15,6 @@ but rooting the Retroid Pocket 5 voids its warranty.
 obtained through profiling the sound via professional calibration 
 microphone while the hands were "on" the console, That's the intended use.
 
-
 ### What NOT to expect:
 * You won't hear anything lower than 400hz, nor did I bothered to
 make it possible, since that would have lowered the volume
@@ -29,6 +28,8 @@ to absymal levels. RP5's little speakers are just not up to the task.
 -----------------------------
 ### **ELI5, OVER-DETAILED HOW TO:**
 -----------------------------
+![ ](https://github.com/kokoko3k/jdsp4rp5.app/blob/main/repo_images/shot1.jpg?raw=true)
+
 * Download and install jdsp4rp5app.apk
 from the release/assets page
 * Open the app
@@ -64,6 +65,6 @@ from the release/assets page
 	* Select Audio processing, enable "Legacy mode".
 	* If needed, turn on JamesDSP by tapping the "Power on" icon in the center/lower part of the screen.
 	  
-You're done!
-now go back to the Jdsp4rp5 (temp root) app
-and select if you want or not JamesDSP to start at every boot.
+## You're done! <br>
+* Now go back to the Jdsp4rp5 (temp root) app select if you want or not JamesDSP to start at every boot. <br>
+* Reboot to verify everything works correctly (give the app a few secs to setup everything).
