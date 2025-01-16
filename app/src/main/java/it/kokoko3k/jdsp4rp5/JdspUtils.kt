@@ -116,22 +116,22 @@ object JdspUtils {
 
     private const val TAG = "JdspUtils"
 
-    val subfolder = "whole"
+    val subfolder = "app"
 
     fun installJdsp(context:Context) {
-        // extract assets/whole/ under applicazione/files/
+        // extract assets/$subfolder/ under applicazione/files/
         // which means into in context.filesDir
         var apkname = "JamesDSPManagerThePBone.apk"
-        ApkInstaller.installApkFromAssets(context, apkname, "whole")
+        ApkInstaller.installApkFromAssets(context, apkname, subfolder)
     }
 
 
     fun enableJdsp(context: Context) {
-        // extract assets/whole/ under application/files/
+        // extract assets/$subfolder/ under application/files/
         // which means into in context.filesDir
         copyAssetFolderToFilesDir(context, subfolder)
 
-        // filespath is: /data/user/0/it.kokoko3k.jdsp4rp5/files/whole/
+        // filespath is: /data/user/0/it.kokoko3k.jdsp4rp5/files/$subfolder/
         val filespath = File(context.filesDir, subfolder).absolutePath.toString()
 
         // logpath is: /storage/emulated/0/app.name/files/lostlog.txt
@@ -146,12 +146,12 @@ object JdspUtils {
     }
 
     fun disableJdsp(context: Context) {
-        // extract assets/whole/ under applicazione/files/
+        // extract assets/$subfolder/ under applicazione/files/
         // which means into in context.filesDir
-        val subfolder = "whole"
+        val subfolder = "app"
         copyAssetFolderToFilesDir(context, subfolder)
 
-        // filespath is: /data/user/0/it.kokoko3k.jdsp4rp5/files/whole/
+        // filespath is: /data/user/0/it.kokoko3k.jdsp4rp5/files/$subfolder/
         val filespath = File(context.filesDir, subfolder).absolutePath.toString()
 
         // logpath is: /storage/emulated/0/app.name/files/lostlog.txt
