@@ -52,7 +52,6 @@ from the release/assets page
 	* Set limiter threshold to -0.10dB
 	* Set limiter release to 500.00ms
 	* Set Post gain to 15.00dB
-	* Enable multimodal equalizer
 	* Enable Arbitrary response equalizer
 	* Click on the graph and tap "Edit as string"
 	* Paste this magic string:
