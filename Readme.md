@@ -68,3 +68,15 @@ from the release/assets page
 ## You're done! <br>
 * Now go back to the Jdsp4rp5 (temp root) app select if you want or not JamesDSP to start at every boot. <br>
 * Reboot to verify everything works correctly (give the app a few secs to setup everything).
+
+
+### Credits/License:
+    * This package/app and the scripts made by kokoko3k are released under the 
+      The GNU General Public License v2.0.
+    * Provided libjamesdsp.so by James Fung 
+    * Provided JamesDSPManagerThePBone.apk by James Fung
+    * Thanks to ShadoV from JamesDSP [Community] Telegram channel
+      for insights and support over audio_effects.xml
+    * Thanks to Sayrune from RP5's discord channel
+      for support on audio_policy_configuration.xml
+    * Audio analysis done via: Room EQ Wizard https://www.roomeqwizard.com
