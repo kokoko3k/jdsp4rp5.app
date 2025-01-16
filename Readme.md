@@ -54,7 +54,6 @@ from the release/assets page
 	* Set Post gain to 15.00dB
 	* Enable Arbitrary response equalizer
 	* Click on the graph and tap "Edit as string"
-	* Paste this magic string:
 	* Paste this magic string:<br>
 	```
   	GraphicEQ: 480 0; 600 -5; 700 -15; 850 -10; 1200 -10;
