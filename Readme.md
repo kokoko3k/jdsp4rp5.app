@@ -60,6 +60,8 @@ from the release/assets page
   	GraphicEQ: 480 0; 600 -5; 700 -15; 850 -10; 1200 -10;
   	1670 -15; 2160 -18; 2800 -18; 3800 -28; 5000 -8; 7000 0;
 	```
+	* Tap the cog icon in the lower/left side of the screen
+	* Select Audio processing, enable "Legacy mode".
 	* If needed, turn on JamesDSP by tapping the "Power on" icon in the center/lower part of the screen.
 	  
 You're done!
