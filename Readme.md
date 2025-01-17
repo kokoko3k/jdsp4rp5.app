@@ -23,7 +23,7 @@ to absymal levels. RP5's little speakers are just not up to the task.
 ### Drawbacks:
 * The audio output latency will increase by about 70ms.
 * The output volume will be lower.
-* CPU usage will be slightly higher.
+* CPU usage will be slightly higher (<1%).
 
 -----------------------------
 ### **ELI5, OVER-DETAILED HOW TO:**
