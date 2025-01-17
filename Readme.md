@@ -7,7 +7,7 @@
 Retroid Pocket 5 speakers sounds really bad out of the box.
 Unfortunately, rootless equalizer solutions cannot be applied to low latency
 applications like most of the emulators, so a root solution is needed,
-but rooting the Retroid Pocket 5 voids its warranty, so we use temporary root permissions jist for the task, a reboot will restore your console state.
+but rooting the Retroid Pocket 5 voids its warranty, so we'll use temporary root permissions just for the task, and a reboot will restore your console state.
 
 ### Benefit/what to expect:
 * A dramatic improvement in sound quality from the speakers.
