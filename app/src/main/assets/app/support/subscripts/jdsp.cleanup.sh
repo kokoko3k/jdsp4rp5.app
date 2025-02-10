@@ -17,7 +17,8 @@
 	done
 	
 	umount /vendor/etc/audio_effects.xml
-	
+
+	umount /vendor/etc/acdbdata/MTP
 
 #restart audio system
 	killall -q audioserver

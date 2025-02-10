@@ -53,7 +53,11 @@
 	chown root:root /vendor/lib/soundfx/*
 	chmod 0644      /vendor/lib/soundfx/*
 	chcon u:object_r:vendor_configs_file:s0 /vendor/lib/soundfx/*
-	
+
+#fix for right-side speaker lacking bass sound
+  mount -o bind /vendor/etc/acdbdata/QRD /vendor/etc/acdbdata/MTP
+
+
 #restart audio system
 	killall -q audioserver
 	killall -q mediaserver
