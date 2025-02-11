@@ -7,7 +7,6 @@
 
 #cleanup
 	umount /vendor/etc/audio/audio_policy_configuration.xml
-
 	for m in $(mount |grep tmpfs | grep $(basename $TMPFS)| awk -F' on ' '{print $2}' | awk -F' type ' '{print $1}') ; do
 		umount -l "$m"
 	done
@@ -19,6 +18,10 @@
 	umount /vendor/etc/audio_effects.xml
 
 	umount /vendor/etc/acdbdata/MTP
+
+  umount /vendor/etc/audio_policy_volumes.xml
+  umount /vendor/etc/default_volume_tables.xml
+  umount /vendor/etc/mixer_paths_qrd.xml
 
 #restart audio system
 	killall -q audioserver
