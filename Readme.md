@@ -1,6 +1,8 @@
 # ((•)) Jdsp4Rp5 (temp root) app 
 ### *JamesDSP in temporary root mode for Retroid Pocket 5*
 
+**Retroid Mini** is not officially supported, please see [here](https://github.com/kokoko3k/jdsp4rp5.app/issues/4)
+
 <br>
 
 ### The problem:
