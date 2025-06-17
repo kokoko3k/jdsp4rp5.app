@@ -1,5 +1,5 @@
 # ((•)) Jdsp4Rp5 (temp root) app 
-### *JamesDSP in temporary root mode for Retroid Pocket 5*
+### *JamesDSP in temporary root mode for Retroid Pocket 5 and Retroid Pocket Flip 2*
 
 **Retroid Mini** is not officially supported, please see [here](https://github.com/kokoko3k/jdsp4rp5.app/issues/4)
 
@@ -7,9 +7,10 @@
 
 ### The problem:
 Retroid Pocket 5 speakers sounds really bad out of the box.
+Flip 2 is a bit better, but there is still room for improvement.
 Unfortunately, rootless equalizer solutions cannot be applied to low latency
 applications like most of the emulators, so a root solution is needed,
-but rooting the Retroid Pocket 5 voids its warranty, so we'll use temporary root permissions just for the task, and a reboot will restore your console state.
+but rooting the Retroid consoles voids their warranty, so we'll use temporary root permissions just for the task, and a reboot will restore your console state.
 
 ### Benefit/what to expect:
 * A dramatic improvement in sound quality from the speakers.
@@ -50,16 +51,21 @@ from the release/assets page
 * Open the newly installed application
 	* Allow JamesDSP to send you notifications
 
-* Now let's configure JamesDSP for Retroid pocket 5 speakers:
+* Now let's configure JamesDSP for Retroid pocket 5 or Flip 2 speakers:
 	* Set limiter threshold to -0.10dB
 	* Set limiter release to 500.00ms
 	* Set Post gain to 15.00dB
 	* Enable Arbitrary response equalizer
 	* Click on the graph and tap "Edit as string"
-	* Paste this magic string:<br>
+	* For Retroid Pocket 5, Paste this magic string:<br>
 	```
   	GraphicEQ: 480 0; 600 -5; 700 -15; 850 -10; 1200 -10;
   	1670 -15; 2160 -18; 2800 -18; 3800 -28; 5000 -8; 7000 0;
+	```
+	* For Flip 2, Paste this magic string:<br>
+  	```
+	GraphicEQ: 500 0; 700 -11; 950 -10; 1650 -15; 2225 -10;
+	3100 -12.5; 5000 -11; 8500 -21; 16500 0; 
 	```
 	* Tap the cog icon in the lower/left side of the screen
 	* Select Audio processing, enable "Legacy mode".
