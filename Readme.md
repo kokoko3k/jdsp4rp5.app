@@ -57,15 +57,13 @@ from the release/assets page
 	* Set Post gain to 15.00dB
 	* Enable Arbitrary response equalizer
 	* Click on the graph and tap "Edit as string"
-	* For Retroid Pocket 5, Paste this magic string:<br>
+	* For Retroid Pocket 5, Paste this magic string (2025/07/31 improved, thanks tobakutiku!):<br>
 	```
-  	GraphicEQ: 480 0; 600 -5; 700 -15; 850 -10; 1200 -10;
-  	1670 -15; 2160 -18; 2800 -18; 3800 -28; 5000 -8; 7000 0;
+  	GraphicEQ: 480 0; 600 -5; 700 -15; 850 -10; 1200 -10; 1670 -15; 2160 -18; 2800 -18; 3800 -28; 5000 -8; 7000 0;
 	```
 	* For Flip 2, Paste this magic string:<br>
   	```
-	GraphicEQ: 500 0; 700 -11; 950 -10; 1650 -15; 2225 -10;
-	3100 -12.5; 5000 -11; 8500 -21; 16500 0; 
+	GraphicEQ: 500 0; 700 -11; 950 -10; 1650 -15; 2225 -10; 3100 -12.5; 5000 -11; 8500 -21; 16500 0; 
 	```
 	* Tap the cog icon in the lower/left side of the screen
 	* Select Audio processing, enable "Legacy mode".
