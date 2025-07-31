@@ -59,7 +59,7 @@ from the release/assets page
 	* Click on the graph and tap "Edit as string"
 	* For Retroid Pocket 5, Paste this magic string (2025/07/31 improved, thanks tobakutiku!):<br>
 	```
-  	GraphicEQ: 480 0; 600 -5; 700 -15; 850 -10; 1200 -10; 1670 -15; 2160 -18; 2800 -18; 3800 -28; 5000 -8; 7000 0;
+  	GraphicEQ: 480 0; 600 -5; 700 -16; 1000 -18; 1200 -10; 1670 -10; 2160 -18; 2800 -18; 3800 -28; 5000 -7; 7000 0;
 	```
 	* For Flip 2, Paste this magic string:<br>
   	```
