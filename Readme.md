@@ -57,10 +57,11 @@ from the release/assets page
 	* Set Post gain to 15.00dB
 	* Enable Arbitrary response equalizer
 	* Click on the graph and tap "Edit as string"
-	* For Retroid Pocket 5, Paste this magic string (2025/07/31 improved, thanks tobakutiku!):<br>
+	* For Retroid Pocket 5, paste this magic string (2025/07/31 improved, thanks tobakutiku!):<br>
 	```
   	GraphicEQ: 480 0; 600 -5; 700 -16; 1000 -18; 1200 -10; 1670 -10; 2160 -18; 2800 -18; 3800 -28; 5000 -7; 7000 0;
 	```
+	* Still on Retroid Pocket 5, if you are using the grip, it's a good idea to fill the hollow handles with something like foam or sponge pieces. This prevents the plastic from acting as a resonance chamber, ruining the sound.
 	* For Flip 2, Paste this magic string:<br>
   	```
 	GraphicEQ: 500 0; 700 -11; 950 -10; 1650 -15; 2225 -10; 3100 -12.5; 5000 -11; 8500 -21; 16500 0; 
@@ -68,7 +69,9 @@ from the release/assets page
 	* Tap the cog icon in the lower/left side of the screen
 	* Select Audio processing, enable "Legacy mode".
 	* If needed, turn on JamesDSP by tapping the "Power on" icon in the center/lower part of the screen.
-	  
+
+
+   
 ## You're done! <br>
 * Now go back to the Jdsp4rp5 (temp root) app select if you want or not JamesDSP to start at every boot. <br>
 * Reboot to verify everything works correctly (give the app a few secs to setup everything).
