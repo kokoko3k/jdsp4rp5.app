@@ -10,7 +10,7 @@ Retroid Pocket 5 speakers sounds really bad out of the box.
 Flip 2 is a bit better, but there is still room for improvement.
 Unfortunately, rootless equalizer solutions cannot be applied to low latency
 applications like most of the emulators, so a root solution is needed,
-but rooting the Retroid consoles voids their warranty, so we'll use temporary root permissions just for the task, and a reboot will restore your console state.
+but rooting the Retroid consoles voids their warranty, so we'll use temporary root permissions just for the task, and a reboot can optionally restore your console state.
 
 ### Benefit/what to expect:
 * A dramatic improvement in sound quality from the speakers.
