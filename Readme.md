@@ -96,3 +96,14 @@ for insights and support over audio_effects.xml
 * Thanks to Sayrune from RP5's discord channel
 for support on audio_policy_configuration.xml
 * Audio analysis done via: Room EQ Wizard https://www.roomeqwizard.com
+<br>
+<br>
+<br>
+<br>
+<br>
+For everyone concerned about the audio latency,
+this is from a real gameplay session under GameNative:
+<br>
+https://github.com/user-attachments/assets/413deb5f-de58-48f8-9db6-bed677733530
+
+
