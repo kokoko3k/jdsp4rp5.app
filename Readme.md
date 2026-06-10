@@ -24,7 +24,7 @@ make it possible, since that would have lowered the volume
 to absymal levels. RP5's little speakers are just not up to the task.
 
 ### Drawbacks:
-* The audio output latency will increase by about 70ms.
+* The audio output latency will increase by about 70ms. [click here to see a gameplay video under GameNative](https://github.com/user-attachments/assets/413deb5f-de58-48f8-9db6-bed677733530)
 * The output volume will be lower.
 * CPU usage will be slightly higher (<1%).
 
@@ -96,11 +96,6 @@ for insights and support over audio_effects.xml
 * Thanks to Sayrune from RP5's discord channel
 for support on audio_policy_configuration.xml
 * Audio analysis done via: Room EQ Wizard https://www.roomeqwizard.com
-<br>
-<br>
-For everyone concerned about the **audio latency**,
-this is from a real gameplay session under GameNative:
-<br>
-https://github.com/user-attachments/assets/413deb5f-de58-48f8-9db6-bed677733530
+
 
 
